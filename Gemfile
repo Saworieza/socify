@@ -38,8 +38,8 @@ group :production do
   gem 'unicorn'
   gem 'rails_12factor'
   gem 'pg', '~> 0.18.4'
-  gem 'fog'
-  gem 'fog-aws'
+  # gem 'fog'
+  # gem 'fog-aws'
 end
 
 gem 'devise'
