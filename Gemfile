@@ -19,6 +19,7 @@ gem 'jquery-atwho-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
+gem 'pg'
 
 group :development do
   gem 'spring'
@@ -35,7 +36,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
   gem 'unicorn'
   gem 'rails_12factor'
   # gem 'fog'
